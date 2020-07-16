@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: empleado-jdbc
+spec:
+  selector:
+    matchLabels:
+      app: empleado-jdbc
+  template:
+    metadata:
+      labels:
+        app: empleado-jdbc
+    spec:
+      containers:
+        - name: empleado-jdbc
+          image: ricarin/myrepository:empleado-jdbc
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+      imagePullSecrets:
+        - name: myregistrykey

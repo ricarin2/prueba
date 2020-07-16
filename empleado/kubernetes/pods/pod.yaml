@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: empleado-web
+spec:
+  containers:
+    - name: empleado-jdbc
+      image: ricarin/myrepository:empleado-jdbc
+      ports:
+        - containerPort: 8080
+  imagePullSecrets:
+    - name: myregistrykey
