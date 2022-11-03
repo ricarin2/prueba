@@ -8,7 +8,7 @@
 ***
 Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
 ### Screenshot
-![Image text](https://www.atresmediacorporacion.com/public/img/rc-television.svg))
+![AtresMedia](https://www.atresmediacorporacion.com/public/img/rc-television.svg)
 ## Technologies
 ***
 A list of technologies used within the project:
