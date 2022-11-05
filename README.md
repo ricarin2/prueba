@@ -15,6 +15,7 @@ Write down the general informations of your project.
 | Project Jenkins | Name of Project |
 | Traceability | YES/NO |
 | Dependencies | Write down which are the dependencies |
+| Projects involved | (Normalization, Transformation, Transformation CSV) |
 
 
 ## Technologies
