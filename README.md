@@ -10,6 +10,12 @@
 
 Write down the general informations of your project.
 
+| Command | Description |
+| --- | --- |
+| Project Jenkins | Name of Project |
+| Traceability | YES/NO |
+| Dependencies | Write down which are the dependencies |
+
 
 ## Technologies
 ***
