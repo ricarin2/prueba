@@ -17,7 +17,7 @@ Write down the general informations of your project.
 | Step involved | (Normalization, Transformation, Transformation CSV) |
 
 
-## Technologies
+## CloudFormation
 ***
 
 A list of technologies used within the project:
