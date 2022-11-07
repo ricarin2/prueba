@@ -11,10 +11,10 @@ Write down the general informations of your project.
 
 | Command | Description |
 | --- | --- |
+| Project Name | xxx |
 | Project Jenkins | Name of Project |
-| Traceability | YES/NO |
 | Dependencies | Write down which are the dependencies |
-| Projects involved | (Normalization, Transformation, Transformation CSV) |
+| Step involved | (Normalization, Transformation, Transformation CSV) |
 
 
 ## Technologies
