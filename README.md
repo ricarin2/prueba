@@ -1,46 +1,81 @@
-![AtresMedia](https://www.atresmediacorporacion.com/public/img/rc-television.svg)
-## Table of Contents
-1. [Project Description](#project-description)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Notes](#notes)
-### Project Description
-***
+![AtresMedia](https://www.atresmediacorporacion.com/public/img/rc-television.svg) 
 
-Write down the general informations of your project.
+## Tabla de Contenidos ETL 
 
-| Command | Description |
-| --- | --- |
-| Project Name | xxx |
-| Project Jenkins | Name of Project |
-| Dependencies | Write down which are the dependencies |
-| Step involved | (Normalization, Transformation, Transformation CSV) |
+1. [Change Log](change-log) 
+
+2. [Descripción del Proyecto](#descripción-del-proyecto) 
+
+3. [Parámetros Input Output](parámetros-input-output) 
+
+4. [CloudFormation](#cloudformation) 
+
+5. [Documentación](#documentación) 
+
+6. [NoteBooks](#notebooks) 
+
+ 
+
+### Change Log 
+
+*** 
+
+| Fecha | Descripción | Versión | 
+
+| --- | --- |--- | 
+
+| --- | --- |--- | 
+
+| --- | --- |--- | 
+
+| --- | --- |--- | 
+
+
+### Descripción del Proyecto 
+
+*** 
+
+Descripción: Escribe aquí la Descripción del proyecto 
+
+ 
+
+| Command | Description | 
+
+| --- | --- | 
+
+| Nombre del Proyecto | xxx | 
+
+| Proyecto Jenkins | Name of Project | 
+
+| Dependencias | Write down which are the dependencies | 
+
+| Step implicados | (Normalization, Transformation, Transformation CSV) | 
+
+| Exports | () | 
+
+
+## Parámetros Input Outputt
+
+Incluir aquí los parámetros  
 
 
 ## CloudFormation
-***
 
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+*** 
+
+¿Que se despliega en la plantilla de CloudFormation? 
+
+Recursos AWS que se generan en el código 
 
 
-## Installation
-***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
+## Documentación
 
-## Notes
-***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
+*** 
 
+Link de Teams documento de operaciones 
+
+Link de Teams documentación del proyecto 
+
+
+## NoteBooks
+¿Como se ejecuta el código? 
