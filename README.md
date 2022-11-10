@@ -16,52 +16,31 @@
 
  
 
-### Change Log 
+## Change Log
 
-*** 
+| Fecha | Descripción | Versión |
+| --- | --- |--- |
+| --- | --- |--- |
+| --- | --- |--- |
+| --- | --- |--- |
 
-| Fecha | Descripción | Versión | 
-
-| --- | --- |--- | 
-
-| --- | --- |--- | 
-
-| --- | --- |--- | 
-
-| --- | --- |--- | 
-
-
-### Descripción del Proyecto 
-
-*** 
+## Descripción del Proyecto
 
 Descripción: Escribe aquí la Descripción del proyecto 
 
- 
+| Command | Description |
+| --- | --- |
+| Nombre del Proyecto | xxx |
+| Proyecto Jenkins | Name of Project |
+| Dependencias | Write down which are the dependencies |
+| Step implicados | (Normalization, Transformation, Transformation CSV) |
+| Exports | () |
 
-| Command | Description | 
-
-| --- | --- | 
-
-| Nombre del Proyecto | xxx | 
-
-| Proyecto Jenkins | Name of Project | 
-
-| Dependencias | Write down which are the dependencies | 
-
-| Step implicados | (Normalization, Transformation, Transformation CSV) | 
-
-| Exports | () | 
-
-
-## Parámetros Input Outputt
+## Parámetros Input Output
 
 Incluir aquí los parámetros  
 
-
 ## CloudFormation
-
-*** 
 
 ¿Que se despliega en la plantilla de CloudFormation? 
 
@@ -69,8 +48,6 @@ Recursos AWS que se generan en el código
 
 
 ## Documentación
-
-*** 
 
 Link de Teams documento de operaciones 
 
