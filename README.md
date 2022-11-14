@@ -12,8 +12,8 @@
 
 | Fecha | Descripción | Versión |
 | --- | --- |--- |
-| 1.0.0.0 | 18/10/2022 | Campaign atresplayer_video (desagregada) e incremental |
 | 1.1.0.0 | xx/11/2022 | Campaign atresplayer_formato (agregada) e incremental |
+| 1.0.0.0 | 18/10/2022 | Campaign atresplayer_video (desagregada) e incremental |
 
 ## Descripción del Proyecto
 
