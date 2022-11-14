@@ -15,18 +15,18 @@
 6. [NoteBooks](#notebooks) 
 
  
-
 ## Change Log
 
 | Fecha | Descripción | Versión |
 | --- | --- |--- |
-| --- | --- |--- |
-| --- | --- |--- |
-| --- | --- |--- |
+| 1.0.0.0 | 18/10/2022 | Campaign atresplayer_video (desagregada) e incremental |
+| 1.1.0.0 | xx/11/2022 | Campaign atresplayer_formato (agregada) e incremental |
 
 ## Descripción del Proyecto
 
-Descripción: Escribe aquí la Descripción del proyecto 
+Genera los ficheros necesarios para campañas de
+- Video (desagregada)
+- Formato (agregada)
 
 | Command | Description |
 | --- | --- |
@@ -38,21 +38,38 @@ Descripción: Escribe aquí la Descripción del proyecto
 
 ## Parámetros Input Output
 
-Incluir aquí los parámetros  
+### Argumentos de entrada:
+- --**source_name** (required):
+- --**start_date** (optional): yyyy-mm-dd
+- --**end_date** (optional): yyyy-mm-dd
+***
+### Ficheros que genera
+bucket: datalake.atresmedia.bigdata.pro
+
+- transformed/campaign/campaign_atresplayer_video
+- transformed/campaign/campaign_atresplayer_video_inc
+- transformed/campaign/campaign_atresplayer_formato
+- transformed/campaign/campaign_atresplayer_formato_inc
+***
+### Configuración en DynamoDB:
+The S3 paths for normalized/tranformed are defined on DynamoDB table *atresmedia.sources.catalog* with keys:
+- *campaign_atresplayer_video*
+- *campaign_atresplayer_video_inc*
+- *campaign_atresplayer_formato*
+- *campaign_atresplayer_formato_inc*
+**Toda la configuración de DynamoDB del proyecto se puede consultar en el directorio src/resources/dynamoDB**
 
 ## CloudFormation
-
-¿Que se despliega en la plantilla de CloudFormation? 
-
-Recursos AWS que se generan en el código 
-
+Genera los siguientes recursos:
+ - **Step Machine**: a3m${Environment}-stepfunction-sm-campaign-atresplayer-video
+ - **Rule** (Para video): a3m${Environment}-stepfunction-sm-campaign-atresplayer-video-rule
+ - **Rule** (para Formato): a3m${Environment}-stepfunction-sm-campaign-atresplayer-formato-rule
 
 ## Documentación
-
-Link de Teams documento de operaciones 
-
-Link de Teams documentación del proyecto 
-
+### Documentos de operaciones:
+- 
 
 ## NoteBooks
 ¿Como se ejecuta el código? 
+logic implementation and test: 
+ */src/resources/notebook*
