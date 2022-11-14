@@ -1,20 +1,13 @@
 ![AtresMedia](https://www.atresmediacorporacion.com/public/img/rc-television.svg) 
 
 ## Tabla de Contenidos ETL 
+1. [Change Log](change-log)
+2. [Descripción del Proyecto](#descripción-del-proyecto)
+3. [Parámetros Input Output](parámetros-input-output)
+4. [CloudFormation](#cloudformation)
+5. [Documentación](#documentación)
+6. [NoteBooks](#notebooks)
 
-1. [Change Log](change-log) 
-
-2. [Descripción del Proyecto](#descripción-del-proyecto) 
-
-3. [Parámetros Input Output](parámetros-input-output) 
-
-4. [CloudFormation](#cloudformation) 
-
-5. [Documentación](#documentación) 
-
-6. [NoteBooks](#notebooks) 
-
- 
 ## Change Log
 
 | Fecha | Descripción | Versión |
@@ -67,7 +60,7 @@ Genera los siguientes recursos:
 
 ## Documentación
 ### Documentos de operaciones:
-- 
+- [ATR - IT - PROC - Campaing_Atresplayer_Video_DS_ETL_Daily_v1.2.0](https://atresmedia.sharepoint.com/:w:/s/PROYECTOBIGDATA-I3TELEVISION/EQJRbxTmm3hCoOsBBXm2JGIBj6sHpGxR1dK0IV5Lwv4QKg)
 
 ## NoteBooks
 ¿Como se ejecuta el código? 
