@@ -23,11 +23,11 @@ Genera los ficheros necesarios para campañas de
 
 | Command | Description |
 | --- | --- |
-| Nombre del Proyecto | xxx |
-| Proyecto Jenkins | Name of Project |
-| Dependencias | Write down which are the dependencies |
-| Step implicados | (Normalization, Transformation, Transformation CSV) |
-| Exports | () |
+| Nombre del Proyecto | atresmedia.campaign.atresplayer.video |
+| Proyecto Jenkins | http://internal-jenki-maste-15ns6hhzjhwv6-642896963.eu-west-1.elb.amazonaws.com/job/atresmedia.transformation.campaign.atresplayer.video/|
+| Dependencias | a3mpro-stepfunction-sm-atresplayer-video a3mpro-stepfunction-sm-cms-transformation-etl |
+| Step implicados | Transformación y Conversión a CSV |
+| Exports | AWS_Salesforce_ConsumoAgregado_Formato_YYYYMMD.csv AWS_Salesforce_ConsumoDesagregado_YYYYMMDD.csv |
 
 ## Parámetros Input Output
 
