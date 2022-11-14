@@ -25,7 +25,7 @@ Genera los ficheros necesarios para campañas de
 | --- | --- |
 | Nombre del Proyecto | atresmedia.campaign.atresplayer.video |
 | Proyecto Jenkins | http://internal-jenki-maste-15ns6hhzjhwv6-642896963.eu-west-1.elb.amazonaws.com/job/atresmedia.transformation.campaign.atresplayer.video/|
-| Dependencias | a3mpro-stepfunction-sm-atresplayer-video a3mpro-stepfunction-sm-cms-transformation-etl |
+| Dependencias | a3mpro-stepfunction-sm-atresplayer-video <br> a3mpro-stepfunction-sm-cms-transformation-etl |
 | Step implicados | Transformación y Conversión a CSV |
 | Exports | AWS_Salesforce_ConsumoAgregado_Formato_YYYYMMD.csv AWS_Salesforce_ConsumoDesagregado_YYYYMMDD.csv |
 
